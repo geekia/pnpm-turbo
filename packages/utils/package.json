@@ -4,8 +4,10 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "pnpm tsc",
+    "build:main": "pnpm tsc",
     "build:deps": "umi-scripts bundleDeps",
+    "build:types": "tsc --emitDeclarationOnly --declaration --declarationDir dist/types",
+    "build": "pnpm build:main && pnpm build:types",
     "dev": "pnpm build --watch",
     "test": "umi-scripts jest-turbo"
   },

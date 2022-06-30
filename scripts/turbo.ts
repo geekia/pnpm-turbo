@@ -2,8 +2,7 @@ import yArgs from '@umijs/utils/compiled/yargs-parser';
 import spawn from 'cross-spawn';
 import { join } from 'path';
 
-(
- async () => {
+(async () => {
   const args = yArgs(process.argv.slice(2))
   const scope = args.scope || '!@example/*';
   const extra = (args._ || []).join(' ');
