@@ -1,4 +1,4 @@
-import yArgs from 'yargs-parser';
+import yArgs from '@umijs/utils/compiled/yargs-parser';
 import spawn from 'cross-spawn';
 import { join } from 'path';
 

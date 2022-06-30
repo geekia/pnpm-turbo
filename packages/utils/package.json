@@ -1,0 +1,14 @@
+{
+  "name": "@pnpm-turbo/utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "pnpm tsc",
+    "build:deps": "umi-scripts bundleDeps",
+    "dev": "pnpm build --watch",
+    "test": "umi-scripts jest-turbo"
+  },
+  "author": "",
+  "license": "MIT"
+}
