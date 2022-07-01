@@ -4,3 +4,4 @@ packages/**/.turbo/
 packages/**/dist/
 .jest-cache/
 coverage/
+packages/**/es/

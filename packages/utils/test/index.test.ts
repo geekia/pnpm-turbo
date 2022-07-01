@@ -1,4 +1,4 @@
-import {sum} from '../src/index';
+import { sum } from '../src/index';
 
 describe('sum', () => {
   it('可以做加法', () => {
