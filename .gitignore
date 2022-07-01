@@ -2,3 +2,5 @@ node_modules/
 .turbo/
 packages/**/.turbo/
 packages/**/dist/
+.jest-cache/
+coverage/
