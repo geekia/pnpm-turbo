@@ -23,6 +23,7 @@
     "@types/cross-spawn": "^6.0.2",
     "@types/jest": "^28.1.4",
     "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
     "@umijs/utils": "^4.0.2",
     "cross-spawn": "^7.0.3",
     "esno": "^0.16.3",
