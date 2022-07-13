@@ -3,7 +3,12 @@
   "baseBranch": "origin/main",
   "pipeline": {
     "build": {
-      "dependsOn": ["^build"]
+      "dependsOn": ["^build"],
+      "outputs": []
+    },
+    "test": {
+      "dependsOn": ["^build"],
+      "outputs": []
     }
   },
   "globalDependencies": []
